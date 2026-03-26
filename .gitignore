@@ -1,0 +1,32 @@
+# Executables
+*.exe
+
+# Object and binary files
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.dll
+
+# Build directories
+build/
+dist/
+out/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
