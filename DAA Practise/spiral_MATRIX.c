@@ -2,16 +2,16 @@
 #include<stdlib.h>
 
 int main(){
-    int mat1[10][10];
+    int mat1[100][100];
     int n = 0, i = 0, j = 0;
     int top = 0, bottom = 0, left = 0, right = 0;
     int value = 1;
 
-    printf("Enter a number(1 to 10): ");
+    printf("Enter a number(1 to 100): ");
     scanf("%d",&n);
 
-    if(n < 1 || n > 10){
-        printf("Please enter between 1 and 10!!\n");
+    if(n < 1 || n > 100){
+        printf("Please enter between 1 and 100!!\n");
         return 1;
     }
 
