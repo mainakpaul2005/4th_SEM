@@ -3,7 +3,7 @@
 int main(){
 
     printf("Hello 4th SEM !!\n");
-    printf("DAA - Design Analysis of Algorithms but no KK sir !");
+    printf("DAA - Design Analysis of Algorithms!");
 
     return 0;
 }

@@ -41,9 +41,8 @@ int main(){
 			j += 1;
 			min_p_i += 1;
 
-		}		
-
-		printf("The array with MAX SUM: ");
+		}
+		
 		for(i = 0; i < n; i++){
 			sum += arr1[i];
 		}
