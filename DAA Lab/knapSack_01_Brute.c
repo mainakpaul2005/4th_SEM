@@ -18,7 +18,7 @@ int main() {
     printf("Enter capacity: ");
     scanf("%d", &cap);
 
-    node* items = (node*)malloc(n * sizeof(node));
+    node* items = (node*) malloc(n * sizeof(node));
 
     for (int i = 0; i < n; i++) {
         printf("Enter value and weight of item %d: ", i + 1);
