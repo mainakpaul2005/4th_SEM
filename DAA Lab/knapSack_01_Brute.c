@@ -6,11 +6,11 @@ typedef struct Node {
     int weight;
 } node;
 
-float knapSack(node* arr, int n, int cap);
+int knapSack(node* arr, int n, int cap);
 
 int main() {
     int n, cap;
-    float max;
+    int max;
 
     printf("Enter the number of items: ");
     scanf("%d", &n);
@@ -27,14 +27,14 @@ int main() {
 
     max = knapSack(items, n, cap);
 
-    printf("Maximum Profit Value: %.2f\n", max);
+    printf("Maximum Profit Value: %d\n", max);
 
     free(items);
     return 0;
 }
 
-float knapSack(node* arr, int n, int cap) {
-    float maxProfit = 0;
+int knapSack(node* arr, int n, int cap) {
+    int maxProfit = 0;
 
     int totalCombo = 1;
     for (int i = 0; i < n; i++) {
